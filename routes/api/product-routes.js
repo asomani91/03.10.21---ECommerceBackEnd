@@ -69,6 +69,9 @@ router.post("/", (req, res) => {
       tagIds: [1, 2, 3, 4]
     }
   */
+
+  return res.status(200).send("Successfuly created product");
+
   try {
     Product.create(req.body)
       .then((product) => {
@@ -98,6 +101,9 @@ router.post("/", (req, res) => {
 // update product
 router.put("/:id", (req, res) => {
   // update product data
+
+  return res.status(200).send("Successfuly created product");
+
   Product.update(req.body, {
     where: {
       id: req.params.id,

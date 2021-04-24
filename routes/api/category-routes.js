@@ -55,7 +55,7 @@ router.put("/:id", (req, res) => {
 
 router.delete("/:id", (req, res) => {
   // delete a category by its `id` value
-  res.send("Deleted category with id ", req.params.id);
+  res.send("Deleted category with id " + req.params.id);
 });
 
 module.exports = router;
