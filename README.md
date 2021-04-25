@@ -6,6 +6,8 @@ LINKS
 
 https://github.com/asomani91/03.10.21---ECommerceBackEnd
 
+![GIF](https://github.com/asomani91/03.10.21---ECommerceBackEnd/blob/main/ECommerceBackEnd.gif)
+
 -----
 
 Welcome to my ECommerce BackEnd! This allows users to view inventory!
